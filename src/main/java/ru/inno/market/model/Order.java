@@ -45,9 +45,7 @@ public class Order {
         return client;
     }
 
-    public Map<Item, Integer> getCart() {
-        return cart;
-    }
+    public Map<Item, Integer> getCart() { return cart; }
 
     public double getTotalPrice() {
         return totalPrice;
